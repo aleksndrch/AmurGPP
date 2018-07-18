@@ -1,0 +1,60 @@
+//089-FT001
+SetTagFloat("089-FT001.PV_Out#Value",(GetTagFloat("089-FT01")));
+GetTagFloatStateQC("089-FT01",&dwState,&dwQC);
+if(dwQC != OK){SetTagBit("089-FT001.TagQC",1);}
+else{SetTagBit("089-FT001.TagQC",0);}
+//089-FT002
+SetTagFloat("089-FT002.PV_Out#Value",(GetTagFloat("089-FT02")));
+GetTagFloatStateQC("089-FT02",&dwState,&dwQC);
+if(dwQC != OK){SetTagBit("089-FT002.TagQC",1);}
+else{SetTagBit("089-FT002.TagQC",0);}
+//089-LT001
+SetTagFloat("089-LT001.PV_Out#Value",(GetTagFloat("089-LT01")));
+GetTagFloatStateQC("089-LT01",&dwState,&dwQC);
+if(dwQC != OK){SetTagBit("089-LT001.TagQC",1);}
+else{SetTagBit("089-LT001.TagQC",0);}
+//089-LT002
+SetTagFloat("089-LT002.PV_Out#Value",(GetTagFloat("089-LT02")));
+GetTagFloatStateQC("089-LT02",&dwState,&dwQC);
+if(dwQC != OK){SetTagBit("089-LT002.TagQC",1);}
+else{SetTagBit("089-LT002.TagQC",0);}
+//089-LT003
+SetTagFloat("089-LT003.PV_Out#Value",(GetTagFloat("089-LT03")));
+GetTagFloatStateQC("089-LT03",&dwState,&dwQC);
+if(dwQC != OK){SetTagBit("089-LT003.TagQC",1);}
+else{SetTagBit("089-LT003.TagQC",0);}
+//089-LT004
+SetTagFloat("089-LT004.PV_Out#Value",(GetTagFloat("089-LT04")));
+GetTagFloatStateQC("089-LT04",&dwState,&dwQC);
+if(dwQC != OK){SetTagBit("089-LT004.TagQC",1);}
+else{SetTagBit("089-LT004.TagQC",0);}
+//089-PT001
+SetTagFloat("089-PT001.PV_Out#Value",(GetTagFloat("089-PT01")));
+GetTagFloatStateQC("089-PT01",&dwState,&dwQC);
+if(dwQC != OK){SetTagBit("089-PT001.TagQC",1);}
+else{SetTagBit("089-PT001.TagQC",0);}
+//089-PT002
+SetTagFloat("089-PT002.PV_Out#Value",(GetTagFloat("089-PT02")));
+GetTagFloatStateQC("089-PT02",&dwState,&dwQC);
+if(dwQC != OK){SetTagBit("089-PT002.TagQC",1);}
+else{SetTagBit("089-PT002.TagQC",0);}
+//089-PT003
+SetTagFloat("089-PT003.PV_Out#Value",(GetTagFloat("089-PT03")));
+GetTagFloatStateQC("089-PT03",&dwState,&dwQC);
+if(dwQC != OK){SetTagBit("089-PT003.TagQC",1);}
+else{SetTagBit("089-PT003.TagQC",0);}
+//089-PT004
+SetTagFloat("089-PT004.PV_Out#Value",(GetTagFloat("089-PT04")));
+GetTagFloatStateQC("089-PT04",&dwState,&dwQC);
+if(dwQC != OK){SetTagBit("089-PT004.TagQC",1);}
+else{SetTagBit("089-PT004.TagQC",0);}
+//089-TT001
+SetTagFloat("089-TT001.PV_Out#Value",(GetTagFloat("089-TT01")));
+GetTagFloatStateQC("089-TT01",&dwState,&dwQC);
+if(dwQC != OK){SetTagBit("089-TT001.TagQC",1);}
+else{SetTagBit("089-TT001.TagQC",0);}
+//089-TT002
+SetTagFloat("089-TT002.PV_Out#Value",(GetTagFloat("089-TT02")));
+GetTagFloatStateQC("089-TT02",&dwState,&dwQC);
+if(dwQC != OK){SetTagBit("089-TT002.TagQC",1);}
+else{SetTagBit("089-TT002.TagQC",0);}
